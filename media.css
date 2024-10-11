@@ -1,0 +1,145 @@
+@media(max-width:959px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:812px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media(max-width:900px){
+    .select{
+        display: block;
+        gap: 10px;
+    }
+    select{ 
+              /* height: 100vh;  */
+              width: 1000%;
+    } 
+}
+@media(max-width:598px){
+    .inpt{
+        display: block;
+    }
+    .inp input{
+        /* border: 1px solid white ;
+        padding: 10px 20px;
+        background-color: transparent;
+        caret-color:white;
+        border-radius: 3px; */
+        width: 100vh;
+    }
+    .button{
+       align-items: center;
+       display: flex;
+       justify-content: center;
+    }
+
+}
+@media(max-width:575px){
+    .home h1{
+        font-size: 2.3rem; 
+        font-weight: 700;
+        color: white;
+        line-height: 1.2;
+    }
+    .home .start{
+        color: white;
+        font-size: 19px;
+        font-weight:bold;
+        letter-spacing: 0.125rem;
+        }
+        .home .watch{
+            text-align: center;
+          color: white;
+          font-size: 15px;
+          font-weight: 700;
+          /* margin-top: 10px; */
+        }
+}
+@media(max-width:575px){
+    .home h1{
+        font-size: 1.4rem; 
+        font-weight: 700;
+        color: white;
+        line-height: 1.2;
+    }
+    .home .start{
+        color: white;
+        font-size: 13px;
+        font-weight:bold;
+        letter-spacing: 0.125rem;
+        }
+        .home .watch{
+            text-align: center;
+          color: white;
+          font-size: 15px;
+          font-weight: 700;
+          /* margin-top: 10px; */
+        }
+}
+@media(max-width:562px){
+    .inp input{
+        width: 90vh;
+    }
+}
+@media(max-width:537px){
+    .inp input{
+        width: 90vh;
+    }
+}
+@media(max-width:562px){
+    .inp input{
+        width: 80vh;
+    }
+}
+@media(max-width:487px){
+    .address{
+        display: block;
+    
+    }
+    .in input{
+        width: 100%;
+    }
+    .but button{
+       margin-top: 5px;
+       margin-left: 30px;
+       width: 200px;
+    }
+    .question{
+        margin-top: 30px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+@media(max-width:485px){
+    .inp input{
+        width: 70vh;
+    }
+}
+@media(max-width:460px){
+    .inp input{
+        width: 70vh;
+    }
+}
+@media(max-width:400px){
+    .inp input{
+        width: 60vh;
+    }
+}
+@media(max-width:331px){
+    .container{
+        display: block;
+    }
+}
+@media(max-width:301px){
+    .body .btn-1{
+    margin-top: 10px;
+    }
+    .logo img{
+    width: 100%;
+    }
+}

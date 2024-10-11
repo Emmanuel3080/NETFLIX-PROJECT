@@ -1,0 +1,41 @@
+body{
+margin:0px;
+padding: 50px;
+}
+.no{
+    background-color: blue;
+    width: 100%;
+    padding:150px 40px 300px 100px;
+    color: white;
+    
+}
+/*h1{
+    font-size: 40px;
+}*/
+.mo{
+    background-color: rgb(202, 191, 191);
+    width: 100%;
+    padding: 80px 20px 180px 50px;
+}
+input{
+    background-color: white;
+    width: 400px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px 40px;
+    border: none;
+}
+@media( max-width: 575.98px){
+    input{
+        background-color: rgb(247, 241, 241);
+        width: 150px;
+    }
+}
+@media( max-width: 575.98px){
+    .mo{
+        top: -10px;
+        position: relative;
+    }
+}

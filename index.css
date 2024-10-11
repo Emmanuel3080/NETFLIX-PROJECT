@@ -1,0 +1,246 @@
+/* @import
+url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    /* background-image: url("./images/NG-en-20240930-TRIFECTA-perspective_23b45cd2-39ae-45f7-ac09-fd52626a4fd3_large.jpg"); */
+    background-image: linear-gradient(black,#0000005d,#000000), url("./images/NG-en-20240930-TRIFECTA-perspective_23b45cd2-39ae-45f7-ac09-fd52626a4fd3_large.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1000;
+    overflow-x: hidden;
+}
+.container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+}
+.logo{
+    transform: scale(1.1);
+    /* position: relative;
+    left: 10%; */
+}
+.body .btn-1{
+    background-color: red;
+    padding: 9px 16px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 8px;
+    /* transition: all .3s ease-in-out; */
+}
+.body .btn-1:hover{
+    background-color: rgb(222, 32, 32);
+}
+.home{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.home h1{
+    font-size: 3rem; 
+    font-weight: 900;
+    color: white;
+    line-height: 1.2;
+}
+.home .start{
+color: white;
+font-size: 19px;
+font-weight:bold;
+letter-spacing: 0.125rem;
+}
+.home .watch{
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.inpt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inp{
+    padding: 10px 10px;
+    }
+.inp input{
+    border: 1px solid white ;
+    padding: 10px 20px;
+    background-color: transparent;
+    caret-color:white;
+    border-radius: 3px;
+    width: 54vh;
+    color: white;
+}
+.inp input:focus{
+    outline: 5px solid black;
+}
+.inp input::placeholder{
+color: white;
+font-size: 19px;
+line-height: 1.5;
+font-weight: 500;
+}
+.button button{
+    text-align: center;
+    padding: 15px 15px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 170px;
+    /* transition: 100ms ease-in-out; */
+}
+.button button:hover{
+    background-color: rgb(222, 32, 32);
+}
+.image{
+    margin-top: 10px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 10px;
+    /* transition: all 1000ms ease-in-out; */
+    overflow-y: hidden;
+}
+.image img:hover{
+    transform: scale(1.1);
+
+}
+
+/* Section2 */
+.movies{
+    /* background:linear-gradient(149deg, #192247 0%, #210e17 96.86%);  */
+    /* height: 300px; */
+    background-color: black;
+}
+.curve{
+    position: relative;
+    top: -25px;
+    clip-path: ellipse(60% 20% at 50% 50%);
+    width: 100%;
+    height: 20px;
+    z-index: 999;
+     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 0.578), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%); 
+}
+.select{
+    padding: 10px 30px; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.mov{
+    margin-top: 39px;
+}
+.bodys{
+     background:linear-gradient(149deg, #192247 0%, #210e17 96.86%); 
+    padding: 30px 20px 20px 40px;
+    border-radius: 10px;
+  } 
+  .bodys svg{
+    position: relative;
+    left: 88%;
+  }
+.accordion-button::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/></svg>')!important;
+    transform: scale(2.9);
+   
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/></svg>');
+    transform: scale(2.9) rotate(45deg) !important;
+}
+ .text{
+  font-size: 19px;
+  font-weight: 500;
+}
+.word{
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.ready{
+    background-color: black;
+    padding: 10px;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.in input{
+    border: thin transparent blue ;
+    padding: 10px 20px;
+    background-color: transparent;
+    caret-color:white;
+    border-radius: 3px;
+    width: 54vh;
+    color: white;
+}
+.in input:focus{
+    outline: 1px solid white;
+}
+.in input::placeholder{
+color: white;
+font-size: 19px;
+line-height: 1.5;
+font-weight: 500;
+}
+.but button{
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 170px;
+}
+.but button:hover{
+    background-color: rgb(222, 32, 32);
+}
+.question{
+color: white;
+ padding: 70px;
+ font-size: 17px;
+ font-family: sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 10px;
+}
+.grid a{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.select-2{
+   /* margin: 90px; */
+   padding: 10px 10px;
+}
+.select-2 p{
+    margin-top: 20px;
+    padding: 10px 50px;
+    color: white;
+    font-size: 20px;
+}
+
